@@ -34,7 +34,7 @@ service = discovery.build(
 )
 
 # Prints the responses of your specified form:
-form_id = "<YOUR_FORM_ID>"
+form_id = "<https://forms.gle/ZakkniCmkWdBJCN59>"
 result = service.forms().responses().list(formId=form_id).execute()
 print(result)
 # [END forms_retrieve_all_responses]
